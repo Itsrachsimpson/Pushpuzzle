@@ -1,0 +1,321 @@
+/*-------------- keep the same --------*/
+
+/*-------------- I made sure th footer and the nav was always kept the same.--------*/
+
+h2,h3,h4,h5,h6,p {
+    /*-------------- This shows that I want this text to have this font --------*/
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 17px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #23adec;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+h3 {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 812px;
+    margin:0px auto;
+    margin-bottom: 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 30px;
+    background-color: #333;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #808185;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.navbar li a:hover {
+     color:#23adec;
+}
+
+/*-------------- this above is what changes the colour when you hover over it. --------*/
+
+.navbar{
+        margin: -150px 0 50px 0px;
+    
+}
+
+.blog {
+    padding-right:130px;
+
+}
+
+.events {
+    padding-left:150px;
+}
+
+nav ul{
+    margin: -100px 0 0;
+    
+}
+
+.selection {
+    color: #23adec;
+}
+
+/*-------------- this is what keeps it this colour. --------*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0px;
+    margin: 20px;  
+}
+
+/*--home---*/
+
+/*-------------- this is how I orgenise my css --------*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/*-------------- this above is what changes the colour of the background when you make it smaller. it says when the screen is under 500 the colour will change --------*/
+
+.LatestNewsIndex {
+    margin-left: 37px;
+}
+.nextevents p {
+     margin: 0px 300px 100px 300px;
+}
+
+.latestnews {
+  height: 300px;
+  background: url(../images/P1940589.JPG) no-repeat center top fixed; /*-------------- this is how I did the scroll. This means the image won't move. --------*/
+  background-size: cover;
+  margin-top: 10px;
+      margin-bottom: 42px;
+}
+
+.nextevents {
+  height: 300px;
+  background: url(../images/Stone%20Angels%20by%20Colin%20Chance-_8101605PC.JPG) no-repeat center top fixed;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+
+.latestnews:first-child {
+  margin-top: 10px;
+}
+
+.mediahome {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mediahome img {
+    padding: 0 20px 90px 20px;
+    height: 50px;
+    width: auto;
+}
+
+/*--about---*/
+
+.whoweare {
+  height: 300px;
+  background: url(../images/12321606_724450974323525_2399100873471081083_n.jpg) no-repeat center top fixed;
+  background-size: cover;
+  margin-top: 10px;
+      margin-bottom: 59px;
+}
+
+.whatwedo {
+  height: 300px;
+  background: url(../images/Montclare%20by%20Colin%20Chance-8100864.jpg) no-repeat center top fixed;
+  background-size: cover;
+  margin-top: 10px;
+      margin-bottom: 59px;
+}
+
+.whatwecandoforyou {
+  height: 300px;
+  background: url(../images/10931525_606323862802904_4588898420903731343_n.jpg) no-repeat center top fixed;
+  background-size: cover;
+  margin-top: 10px;
+      margin-bottom: 59px;
+}
+
+/*--blog---*/
+
+.mix {
+  height: 300px;
+  background: url(../images/fader-393041_960_720.jpg) no-repeat center top fixed;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.trust {
+    float: right;
+    margin: 100px 50px 50px 50px;
+}
+
+/*---events---*/
+
+.topevents {
+  height: 300px;
+  background: url(../images/Montclare%20by%20Colin%20Chance-8100399.jpg) no-repeat center top fixed;
+  background-size: cover;
+}
+
+/*---artists---*/
+
+.northenfire {
+  display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-image: url(../images/northenfire2.jpg); /*-------------- this image sits under the other image and this is how I did the hover style image --------*/
+    height: auto;
+    background-size: 100%;
+}
+
+.northenfire img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.northenfire:hover img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+.stoneangels {
+  display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-image: url(../images/stoneangels2.jpg);
+    height: auto;
+    background-size: 100%;
+}
+
+.stoneangels img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.stoneangels:hover img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+.rachellumb {
+  display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-image: url(../images/rachellumb2.jpg);
+    height: auto;
+    background-size: 100%;
+}
+
+.rachellumb img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.rachellumb:hover img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+.montclare {
+  display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background-image: url(../images/montclare2.jpg);
+    height: auto;
+    background-size: 100%;
+}
+
+.montclare img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+.montclare:hover img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+.artistslinks {
+    display:flex;
+}
+
+.artistslinks p {
+    width:25%;
+    float:left;
+    margin-bottom: 104px;
+    margin-top: 104px;
+}
+/*---keep this the same---*/
+
+
+
+.media {
+    display: flex;
+    justify-content: right;
+}
+
+.media img {
+    padding: 0px 10px 45px 10px;
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #333;
+}
+
+.fa.fa-facebook {
+    font-size: 100px;
+    color: chartreuse;
+}
+
+
